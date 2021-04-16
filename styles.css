@@ -1268,6 +1268,22 @@ li:hover > .submenu {
     font-size: 3.5vw;
 }}
 
+.sale {
+    font-size: 1vw;
+    font-weight: 400;
+    color: red;
+}
+
+@media (max-width: 768px){
+    .sale {
+        font-size: 1.8vw;
+    }}
+
+    @media (max-width: 500px){
+        .sale {
+            font-size: 3.2vw;
+        }}
+
 .radio_form{
     display: -webkit-box;
     display: -ms-flexbox;
