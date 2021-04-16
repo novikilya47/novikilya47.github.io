@@ -107,6 +107,7 @@
 
                         <div class="radio">
                             <h2>Тип рамки <a href="site_about.html#border">(подробнее)</a> :</h2>
+                            <p class ="sale">Акция! Любая рама бесплатно!</p>
                             <form action="">
                                 <div class="radio_form ramka">
                                     <p><input name="border" type="radio" value="2" id="2"><label for="2">Объемная рама</label></p>
@@ -124,7 +125,7 @@
 
                 <div class="page_order_container">
                     <div class="page_order_container_price">
-                        <h2>Общая стоимость: 40 рублей</h2>
+                        <h2>Общая стоимость: 0 рублей</h2>
                     </div>
                     <button class="page_order_container_button">
                         <p>В корзину</p> 
@@ -211,6 +212,19 @@
             $( ".page_order_container_button" ).click(function(){ 
                 $( ".attention" ).fadeIn();     
             });  
+            
+            $( "#A1" ).click(function(){ 
+                $( ".price" ).text('Общая стоимость: 30 рублей');;     
+            });
+            $( "#A2" ).click(function(){ 
+                $( ".price" ).text('Общая стоимость: 25 рублей');;     
+            });
+            $( "#A3" ).click(function(){ 
+                $( ".price" ).text('Общая стоимость: 20 рублей');;     
+            });
+            $( "#A4" ).click(function(){ 
+                $( ".price" ).text('Общая стоимость: 15 рублей');;     
+            });
         });
     </script>
 </body>
